@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Conspiranoico</title>
+
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+    <!-- Overrides propios -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<style> /* Acá solo van overrides locales */
+
+</style>
+<body>
+    <div class="container"> <!--Container Boostrap-->
+        <header class="row">
+            <!-- Titulo -->
+            <div class="container_titulo col-12 col-sm-12 col-md-9 col-lg-10 col-xl-10">
+                <a href="index.html">
+                    <p class="container_titulo--titulo">El Conspiranoico</p>
+                    <p class="container_titulo--subtitulo">Información Poco condiable</p>
+                </a>
+            </div>
+            <!-- Redes -->
+            <div class="container_redes col-12 col-sm-12 col-md-3 col-lg-2 col-xl-2">
+                <a href="https://badoo.com/es-ar/"> <img src="media/redes-facebook-icon.png" alt="facebook" class="container_redes--iconoRedes"></a>
+                <a href="https://tinder.com/?lang=es-AR"> <img src="media/redes-google-plus-icon.png" alt="google" class="container_redes--iconoRedes"></a>
+                <a href="https://www.secondlove.com"> <img src="media/redes-twitter-icon.png" alt="twitter" class="container_redes--iconoRedes"></a>
+                <a href="https://www.onlineseducer.com"> <img src="media/redes-whatsapp-icon.png" alt="whatsapp" class="container_redes--iconoRedes"></a>
+            </div>
+        </header>
+        <nav class="navbar navbar-expand-sm sticky-top"> <!--Nombres de clases default boostrap, no aplica BEM-->
+            <ul class="navbar-nav col 12">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#preArgentina">Argentina</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#preDeportes">Deportes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#preFarandula">Farandula</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Dolar
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="dolar.html">Dolar Oficial</a>
+                        <a class="dropdown-item" href="dolar.html">Dolar Solidario</a>
+                        <a class="dropdown-item" href="dolar.html">Dolar Paralelo</a>
+                        <a class="dropdown-item" href="dolar.html">Dolar Cueva</a>
+                        <a class="dropdown-item" href="dolar.html">Dolar Caverna</a>
+                        <a class="dropdown-item" href="dolar.html">Dolar Covacha</a>
+                        <a class="dropdown-item" href="dolar.html">Dolar Ladrillo</a>
+                        <a class="dropdown-item" href="dolar.html">Dolar Futuro</a>
+                        <a class="dropdown-item" href="dolar.html">Dolar Turista</a>
+                        <a class="dropdown-item" href="dolar.html">Dolar Pasado</a>
+                        <a class="dropdown-item" href="dolar.html">Dolar Posible</a>
+                        <a class="dropdown-item" href="dolar.html">Dolar Imposible</a>
+                        <a class="dropdown-item" href="dolar.html">Dolar Imaginario</a>
+                        <a class="dropdown-item" href="dolar.html">Dolar Inalcanzable</a>
+                        <a class="dropdown-item" href="dolar.html">Dolar Cuarentena</a>
+                        <a class="dropdown-item" href="dolar.html">Dolar Verdura</a>
+                        <a class="dropdown-item" href="dolar.html">Dolar Cualquiera</a>
+                        <a class="dropdown-item" href="dolar.html">Dolar Colchon</a>
+                        <a class="dropdown-item" href="dolar.html">Dolar Netflix</a>
+                        <a class="dropdown-item" href="dolar.html">Dolar Playstation</a>
+                        <a class="dropdown-item" href="dolar.html">¿Que dolar?</a>
+                    </div>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="buchonearla.html">Buchonearla</a>
+                </li>
+            </ul>
+        </nav>
+        <br>
+        <p class="cuerpo_pagina--tituloSeccion" style="text-align: center;">Si Serás</p>
+        <div class="col 12" style="text-align: center;"> <!-- Grid Boostrap -->
+            <img src="media/donramon.png" alt="">
+        </div>
+        <br>
+        <footer class="row col-12">
+            <fieldset class="col-12">
+                <legend>
+                    Desde el bunker con amor
+                </legend>
+                <form action="zulma.html">
+                    <input type="submit" value="No Toque Aquí" id="boton_footer">
+                </form>
+            </fieldset>
+        </footer>
+
+        <!-- Modals PopUp -->
+        <div class="modal fade" id="preArgentina" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content modal_warning">
+                <div class="modal-header modal_warning--texto_header">
+                  <h6 class="modal-title" id="exampleModalLongTitle">Parece que cliqueo mal...</h6>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <p class="modal_warning--texto_cuerpo">¿Esta completamente seguro que no queria ver la cotización del Dolar de los ultimos 34 segundos?</p>
+                </div>
+                <div class="modal-footer">
+                    <td style="width: 50%; align-content: center;">
+                        <form action="argentina.html">
+                            <input type="submit" value="Recién vi el precio" class="modal_warning--boton">
+                        </form>
+                    </td>
+                    <td style="width: 50%; align-content: center;">
+                        <form action="dolar.html">
+                            <input type="submit" value="Va siendo hora que lo revise" class="modal_warning--boton">
+                        </form>
+                    </td>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="modal fade" id="preDeportes" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content modal_warning">
+                <div class="modal-header modal_warning--texto_header">
+                  <h6 class="modal-title" id="exampleModalLongTitle">Parece que cliqueo mal...</h6>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <p class="modal_warning--texto_cuerpo">¿Esta completamente seguro que no queria ver la cotización del Dolar de los ultimos 34 segundos?</p>
+                </div>
+                <div class="modal-footer">
+                    <td style="width: 50%; align-content: center;">
+                        <form action="deportes.html">
+                            <input type="submit" value="Recién vi el precio" class="modal_warning--boton">
+                        </form>
+                    </td>
+                    <td style="width: 50%; align-content: center;">
+                        <form action="dolar.html">
+                            <input type="submit" value="Va siendo hora que lo revise" class="modal_warning--boton">
+                        </form>
+                    </td>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="modal fade" id="preFarandula" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content modal_warning">
+                <div class="modal-header modal_warning--texto_header">
+                  <h6 class="modal-title fielsetLegends" id="exampleModalLongTitle">Parece que cliqueo mal...</h6>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <p class="modal_warning--texto_cuerpo">¿Esta completamente seguro que no queria ver la cotización del Dolar de los ultimos 34 segundos?</p>
+                </div>
+                <div class="modal-footer">
+                    <td style="width: 50%; align-content: center;">
+                        <form action="farandula.html">
+                            <input type="submit" value="Recién vi el precio" class="modal_warning--boton">
+                        </form>
+                    </td>
+                    <td style="width: 50%; align-content: center;">
+                        <form action="dolar.html">
+                            <input type="submit" value="Va siendo hora que lo revise" class="modal_warning--boton">
+                        </form>
+                    </td>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
