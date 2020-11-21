@@ -1,5 +1,10 @@
 Desafío Clases 13 y 14: Se hace un rollback de las clases SASS que solo se agregaron para completar el desafío 12. Se inicializa el repo git, y se hacen los cambios para el desafío SEO. Optimización de Imagenes, titulos y keywords para la página. 
 Carpeta Media antes de la optimización: 12.594.713 bytes
+Carpeta Media despues de la optimización: 4.128.800 bytes
+Se Aplican las etiquetas <h1> y <h2> para su indexación.
+Se cambiaros las etiquetas <Title>
+Sa añadio la Meta description a la página principal.
+Se añadieron al index.html las siguientes keywords: humor grafico, chistes graficos, chistes para whatsapp, chistes argentinos, humor, satira, revsita, divertido, humor negro, chistes de humor negro, imagenes de chistes, coco legrand, satira significado, frases de humor, frases graciosas de amor, videos de humor, memes de humor negro, memes humor negro, imagenes chistosas para whatsapp, divertida, humor on
 
 Tercera Entrega: Para poder incorporar exitosamente Boostrap - SASS y BEM sin perder diseño responsive ni pisar boostrap donde no se necesita consideré necesaria una migración completa del sitio entre la segunda y tercera entrega. Manteniendo todos los contenidos y estructura, pero reescribiendo el layout completo a fin de reescribir los contenedores y sus clases.
 
