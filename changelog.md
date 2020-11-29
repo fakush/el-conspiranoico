@@ -1,3 +1,10 @@
+Cuarta Entrega:
+- Se agrega Menu Hanburguesa para tamaño mobile menor a md
+- Se Suben los tamaños de texto de cuerpo, subtitulo y copete.
+- Se cambian colores de Titulo - Subtitulo y Cuerpo.
+- Se quita el fondo del footer.
+- Se cambia en la clase foto el atributo padding-botton x margin-bottom
+
 Desafío Clases 13 y 14: Se hace un rollback de las clases SASS que solo se agregaron para completar el desafío 12. Se inicializa el repo git, y se hacen los cambios para el desafío SEO. Optimización de Imagenes, titulos y keywords para la página. 
 Carpeta Media antes de la optimización: 12.594.713 bytes
 Carpeta Media despues de la optimización: 4.128.800 bytes

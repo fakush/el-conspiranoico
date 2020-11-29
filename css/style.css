@@ -21,7 +21,7 @@ body {
 .foto {
   width: 100%;
   border-radius: 5px;
-  padding-bottom: 7px;
+  margin-bottom: 7px;
 }
 
 @-webkit-keyframes animacion_peligro {
@@ -56,7 +56,7 @@ body {
 .cuerpo_pagina .cuerpo_pagina--textoCopete {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
-  font-size: .7rem;
+  font-size: .9rem;
   text-transform: uppercase;
   color: #941f1f;
   margin-bottom: .3rem;
@@ -68,27 +68,28 @@ body {
   font-size: 1.5rem;
   text-transform: uppercase;
   margin: 0px;
-  color: #74b9d6;
+  color: #005685;
 }
 
 .cuerpo_pagina .cuerpo_pagina--textoSubtitulo {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
-  font-size: .8rem;
+  font-size: 1rem;
   text-transform: uppercase;
   margin: 4px;
-  color: #74b9d6;
+  color: #005685;
 }
 
 .cuerpo_pagina .cuerpo_pagina--textoCuerpo {
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
-  font-size: .7rem;
-  color: #939ca0;
+  font-size: .9rem;
+  color: rgba(245, 245, 245, 0.849);
 }
 
 .cuerpo_pagina .cuerpo_pagina--formulario_buchonearla {
   border: 2px solid #74b9d6;
+  border-radius: 5px;
 }
 
 .cuerpo_pagina .cuerpo_pagina--formulario_buchonearla .cuerpo_pagina--formulario_buchonearla--leyenda {
@@ -101,6 +102,7 @@ body {
   font-size: .8rem;
   color: #001b29;
   background-color: #fcbf49;
+  border-radius: 5px;
 }
 
 /* Header */
@@ -190,6 +192,27 @@ header .container_redes .container_redes--iconoRedes {
 }
 
 /* Nav Bar */
+/* Boostrap Override */
+.navbar-dark .navbar-nav .nav-link:link {
+  text-decoration: none;
+  color: #005685;
+}
+
+.navbar-dark .navbar-nav .nav-link:visited {
+  text-decoration: none;
+  color: #005685;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  text-decoration: none;
+  color: #003653;
+}
+
+.navbar-dark .navbar-nav .nav-link:active {
+  text-decoration: none;
+  color: #005685;
+}
+
 nav {
   background-image: url("../media/blackpattern.png");
   font-family: 'Nunito', sans-serif;
@@ -254,18 +277,19 @@ footer {
   text-decoration: none;
   text-align: right;
   color: whitesmoke;
+  padding-top: 15px;
 }
 
 footer fieldset {
-  background-image: -webkit-gradient(linear, left top, right top, from(#004ba0), to(#73c7ff));
-  background-image: linear-gradient(to right, #004ba0, #73c7ff);
-  border-color: #005685;
+  border: 2px solid #005685;
   padding: 10px;
+  border-radius: 5px;
 }
 
 footer fieldset legend {
   font-size: .9rem;
   text-align: left;
+  width: auto;
 }
 
 footer #boton_footer {
@@ -273,6 +297,7 @@ footer #boton_footer {
   font-size: 1rem;
   font-family: 'Stardos Stencil', sans-serif;
   color: #005685;
+  border-radius: 5px;
 }
 
 footer #boton_footer:hover {
@@ -324,5 +349,6 @@ footer #boton_footer:hover {
   font-size: .8rem;
   color: #001b29;
   background-color: #fcbf49;
+  border-radius: 5px;
 }
 /*# sourceMappingURL=style.css.map */
