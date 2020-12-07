@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Overrides propios -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -35,24 +37,24 @@
                 <a href="https://www.onlineseducer.com"> <img src="media/redes-whatsapp-icon.png" alt="whatsapp" class="container_redes--iconoRedes"></a>
             </div>
         </header>
-        <nav class="navbar navbar-expand-sm navbar-dark sticky-top"> <!--Nombres de clases default boostrap, no aplica BEM-->
+        <nav class="navbar navbar-expand-md navbar-dark sticky-top"> <!--Nombres de clases default boostrap, no aplica BEM-->
             <button class="navbar-toggler ml-auto float-xs-right" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav col 12">
                     <li class="nav-item">
-                        <a class="nav-link" href="#" data-toggle="modal" data-target="#preArgentina">Argentina</a>
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#preArgentina"><i class="material-icons">emoji_flags</i> Argentina</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" data-toggle="modal" data-target="#preDeportes">Deportes</a>
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#preDeportes"><i class="material-icons">sports</i> Deportes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" data-toggle="modal" data-target="#preFarandula">Farandula</a>
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#preFarandula"><i class="material-icons">local_activity</i> Farándula</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Dolar
+                            <i class="material-icons">monetization_on</i> Dolar
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="dolar.html">Dolar Oficial</a>
@@ -64,22 +66,18 @@
                             <a class="dropdown-item" href="dolar.html">Dolar Ladrillo</a>
                             <a class="dropdown-item" href="dolar.html">Dolar Futuro</a>
                             <a class="dropdown-item" href="dolar.html">Dolar Turista</a>
-                            <a class="dropdown-item" href="dolar.html">Dolar Pasado</a>
                             <a class="dropdown-item" href="dolar.html">Dolar Posible</a>
-                            <a class="dropdown-item" href="dolar.html">Dolar Imposible</a>
                             <a class="dropdown-item" href="dolar.html">Dolar Imaginario</a>
-                            <a class="dropdown-item" href="dolar.html">Dolar Inalcanzable</a>
                             <a class="dropdown-item" href="dolar.html">Dolar Cuarentena</a>
                             <a class="dropdown-item" href="dolar.html">Dolar Verdura</a>
-                            <a class="dropdown-item" href="dolar.html">Dolar Cualquiera</a>
-                            <a class="dropdown-item" href="dolar.html">Dolar Colchon</a>
+                            <a class="dropdown-item" href="dolar.html">Dolar Colchón</a>
                             <a class="dropdown-item" href="dolar.html">Dolar Netflix</a>
                             <a class="dropdown-item" href="dolar.html">Dolar Playstation</a>
-                            <a class="dropdown-item" href="dolar.html">¿Que dolar?</a>
                         </div>
                       </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="buchonearla.html">Buchonearla</a>
+                        
+                        <a class="nav-link" href="buchonearla.html"><i class="material-icons">campaign</i> Buchonearla</a>
                     </li>
                 </ul>
             </div>
@@ -87,53 +85,52 @@
         <br>
         <p class="cuerpo_pagina--tituloSeccion" style="text-align: center;">Si Serás</p>
         <div class="col 12" style="text-align: center;"> <!-- Grid Boostrap -->
-            <img src="media/donramon.png" alt="">
+            <img src="media/donramon.png" class="foto" alt="">
         </div>
         <br>
         <footer class="row col-12">
             <fieldset class="col-12">
                 <legend>
-                    Desde el bunker con amor
+                    Desde el búnker con amor
                 </legend>
                 <form action="zulma.html">
-                    <input type="submit" value="No Toque Aquí" id="boton_footer">
+                    <button type="button submit" id="boton_footer" class="btn btn-info">No Toque Aquí</button>
                 </form>
             </fieldset>
         </footer>
-
         <!-- Modals PopUp -->
-        <div class="modal fade" id="preArgentina" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal fade shadow" id="preArgentina" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
               <div class="modal-content modal_warning">
                 <div class="modal-header modal_warning--texto_header">
-                  <h6 class="modal-title" id="exampleModalLongTitle">Parece que cliqueo mal...</h6>
+                  <p class="modal-title" id="exampleModalLongTitle">Parece que cliqueo mal...</p>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
                 <div class="modal-body">
-                    <p class="modal_warning--texto_cuerpo">¿Esta completamente seguro que no queria ver la cotización del Dolar de los ultimos 34 segundos?</p>
+                    <p class="modal_warning--texto_cuerpo">¿Esta completamente seguro que no quería ver la cotización del Dolar de los ultimos 34 segundos?</p>
                 </div>
                 <div class="modal-footer">
                     <td style="width: 50%; align-content: center;">
                         <form action="argentina.html">
-                            <input type="submit" value="Recién vi el precio" class="modal_warning--boton">
+                            <input type="submit" value="Recién vi el precio" class="btn btn-success modal_warning--boton">
                         </form>
                     </td>
                     <td style="width: 50%; align-content: center;">
                         <form action="dolar.html">
-                            <input type="submit" value="Va siendo hora que lo revise" class="modal_warning--boton">
+                            <input type="submit" value="Va siendo hora que lo revise" class="btn btn-warning modal_warning--boton">
                         </form>
                     </td>
                 </div>
               </div>
             </div>
         </div>
-        <div class="modal fade" id="preDeportes" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal fade shadow" id="preDeportes" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
               <div class="modal-content modal_warning">
                 <div class="modal-header modal_warning--texto_header">
-                  <h6 class="modal-title" id="exampleModalLongTitle">Parece que cliqueo mal...</h6>
+                  <p class="modal-title" id="exampleModalLongTitle">Parece que cliqueo mal...</p>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
@@ -144,12 +141,12 @@
                 <div class="modal-footer">
                     <td style="width: 50%; align-content: center;">
                         <form action="deportes.html">
-                            <input type="submit" value="Recién vi el precio" class="modal_warning--boton">
+                            <input type="submit" value="Recién vi el precio" class="btn btn-success modal_warning--boton">
                         </form>
                     </td>
                     <td style="width: 50%; align-content: center;">
                         <form action="dolar.html">
-                            <input type="submit" value="Va siendo hora que lo revise" class="modal_warning--boton">
+                            <input type="submit" value="Va siendo hora que lo revise" class="btn btn-warning modal_warning--boton">
                         </form>
                     </td>
                 </div>
@@ -171,12 +168,12 @@
                 <div class="modal-footer">
                     <td style="width: 50%; align-content: center;">
                         <form action="farandula.html">
-                            <input type="submit" value="Recién vi el precio" class="modal_warning--boton">
+                            <input type="submit" value="Recién vi el precio" class="btn btn-success modal_warning--boton">
                         </form>
                     </td>
                     <td style="width: 50%; align-content: center;">
                         <form action="dolar.html">
-                            <input type="submit" value="Va siendo hora que lo revise" class="modal_warning--boton">
+                            <input type="submit" value="Va siendo hora que lo revise" class="btn btn-warning modal_warning--boton">
                         </form>
                     </td>
                 </div>

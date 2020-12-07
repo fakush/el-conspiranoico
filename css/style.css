@@ -11,17 +11,20 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 62.5%;
   margin: 0px;
-  background-color: #303030;
-  /*por si no se carga el png*/
-  background-image: url("../media/blackpattern.png");
-  background-repeat: repeat;
+  background-color: #1d1e22;
   color: whitesmoke;
 }
 
 .foto {
   width: 100%;
   border-radius: 5px;
-  margin-bottom: 7px;
+}
+
+.foto .foto--fill {
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  height: 100%;
 }
 
 @-webkit-keyframes animacion_peligro {
@@ -193,6 +196,40 @@ header .container_redes .container_redes--iconoRedes {
 
 /* Nav Bar */
 /* Boostrap Override */
+.carousel, .slide,
+.carousel .carousel-inner,
+.carousel .carousel-item,
+.carousel .carousel-item img,
+.carousel .carousel-control {
+  border-radius: 5px;
+}
+
+.card {
+  background-color: #1d1e22;
+}
+
+.card .card-img-overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 4px;
+  position: absolute;
+  top: auto;
+  bottom: 10px;
+  left: 10px;
+  right: auto;
+  padding: 10px;
+}
+
+.shadow {
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5) !important;
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5) !important;
+}
+
 .navbar-dark .navbar-nav .nav-link:link {
   text-decoration: none;
   color: #005685;
@@ -214,7 +251,7 @@ header .container_redes .container_redes--iconoRedes {
 }
 
 nav {
-  background-image: url("../media/blackpattern.png");
+  background: #1d1e22;
   font-family: 'Nunito', sans-serif;
   font-weight: 900;
   border-bottom: 2px solid #027ab6;
@@ -228,7 +265,7 @@ nav {
 nav ul {
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  font-size: calc(8px + .5vw);
+  font-size: calc(10px + .5vw);
   text-transform: uppercase;
 }
 
@@ -252,9 +289,12 @@ nav a:active {
   color: #005685;
 }
 
+nav .material-icons {
+  font-size: calc(10px + .5vw);
+}
+
 nav .dropdown-menu {
-  border: 2px solid #027ab6;
-  background-image: url("../media/blackpattern.png");
+  background: #1d1e22;
   font-family: 'Nunito', sans-serif;
   font-size: calc(8px + .5vw);
 }
@@ -266,7 +306,7 @@ nav .dropdown-item {
 nav .dropdown-item:hover {
   text-decoration: none;
   color: #003653;
-  background-color: black;
+  background-color: #1d1e22;
 }
 
 /* Footer */
@@ -296,7 +336,7 @@ footer #boton_footer {
   text-decoration: none;
   font-size: 1rem;
   font-family: 'Stardos Stencil', sans-serif;
-  color: #005685;
+  color: whitesmoke;
   border-radius: 5px;
 }
 
@@ -315,11 +355,7 @@ footer #boton_footer:hover {
 
 /* Modales */
 .modal_warning {
-  padding: 5px;
   text-align: center;
-  margin-top: 35px;
-  margin-left: 35px;
-  margin-right: 35px;
   -webkit-animation-name: animacion_peligro;
           animation-name: animacion_peligro;
   -webkit-animation-duration: .5s;
@@ -333,6 +369,10 @@ footer #boton_footer:hover {
 .modal_warning .modal_warning--texto_header {
   font-family: 'Nunito', sans-serif;
   font-weight: 900;
+  font-size: .9rem;
+  text-transform: uppercase;
+  color: whitesmoke;
+  border-bottom: 0px;
 }
 
 .modal_warning .modal_warning--texto_cuerpo {
@@ -346,9 +386,12 @@ footer #boton_footer:hover {
 
 .modal_warning .modal_warning--boton {
   font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  color: black;
   font-size: .8rem;
-  color: #001b29;
-  background-color: #fcbf49;
-  border-radius: 5px;
+}
+
+.modal_warning .modal-footer {
+  border-top: 0px;
 }
 /*# sourceMappingURL=style.css.map */
